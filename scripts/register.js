@@ -91,7 +91,6 @@ function InsertData(){
     .then(()=>{
         const dec = document.getElementById("dec");
         dec.textContent = "Decryption number 'd': " + d;
-        alert("You may now log in!")
     })
     .catch((error)=>{
         alert(error)
