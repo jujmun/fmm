@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>   
+<body>
+    <div class="wrapper">
+        <h1>Choose your adventure!</h1>
+        <button id="todoBtn">To-Do List</button>
+        <button id="calcBtn">Chemistry Calculator</button>
+        <button id="lightRayBtn">Light Ray Game</button>
+    </div>
+    <script>
+        todoBtn.addEventListener("click", (e) => {
+            window.location.href = "/todo/index.html";
+        });
+        calcBtn.addEventListener("click", (e) => {
+            window.location.href = "/calc/index.html";
+        });
+        lightRayBtn.addEventListener("click", (e) => {
+            window.location.href = "/lightRay/javascript_ver/index.html";
+        });
+    </script>
+</body> 
+</html>
