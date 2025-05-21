@@ -18,7 +18,7 @@ html{
 }
 body{
     min-height: 100vh;
-    background-image: url(/images/bg3.jpg);
+    background-image: url(/images/bg1.jpg);
     background-size: cover;
     background-position: right;
     overflow: hidden;
